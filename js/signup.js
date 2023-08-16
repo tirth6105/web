@@ -11,6 +11,7 @@ const sign = (e) => {
     //   headers: { 'content-type': 'application/json' },
     //   body: JSON.stringify(user)
     // })
+    
   }
   document.getElementById("sign-page").addEventListener("submit", sign)
   document.getElementById("email").addEventListener("keypress",()=>{
